@@ -87,11 +87,19 @@
       <option name="project" value="LOCAL" />
       <updated>1688088235696</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="instaladas dependência com pipenv">
+      <created>1688171018653</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688171018653</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="close" />
-    <option name="LAST_COMMIT_MESSAGE" value="close" />
+    <MESSAGE value="instaladas dependência com pipenv" />
+    <option name="LAST_COMMIT_MESSAGE" value="instaladas dependência com pipenv" />
   </component>
 </project>
