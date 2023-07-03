@@ -1,5 +1,5 @@
 # curso-django
- 
+
 
 código desenvolvido no módulo de django www.python.pro.br
 
