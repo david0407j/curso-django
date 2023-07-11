@@ -1,7 +1,7 @@
 # curso-django
 
 
-código desenvolvido no módulo de django [www.python.pro.br]
+código desenvolvido no módulo de django www.python.pro.br
 
 aplicação disponivel https://fly.io/dashboard/personal
 
