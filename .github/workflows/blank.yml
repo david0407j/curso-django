@@ -39,9 +39,9 @@ jobs:
           echo test, and deploy your project.
           
         
-      - name: Install dependencies
+      - name: pytest-django
         run: |
-          pipenv run pytest 
+          pipenv  pytest 
 
 
         
