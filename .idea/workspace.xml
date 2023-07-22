@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="997a00ae-b25f-46ed-8b23-c0f54f9eede3" name="Changes" comment="Configuração do Ci&#10;&#10;close #5" />
+    <list default="true" id="997a00ae-b25f-46ed-8b23-c0f54f9eede3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -235,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690053750075</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Configuração do Ci&#10;&#10;close #6">
+      <created>1690053970546</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1690053970546</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -249,7 +256,8 @@
     <MESSAGE value="Extrair configuração de SECRET_KEY&#10;&#10;close #4" />
     <MESSAGE value="Extrair configuração ALLOWAD_HOSTS &#10;&#10;close #5" />
     <MESSAGE value="Configuração do Ci&#10;&#10;close #5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuração do Ci&#10;&#10;close #5" />
+    <MESSAGE value="Configuração do Ci&#10;&#10;close #6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuração do Ci&#10;&#10;close #6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
