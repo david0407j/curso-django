@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="997a00ae-b25f-46ed-8b23-c0f54f9eede3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -252,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690054261235</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Configurar locale e Timezone&#10;&#10;close #7">
+      <created>1690054940311</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1690054940311</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -267,7 +276,8 @@
     <MESSAGE value="Extrair configuração ALLOWAD_HOSTS &#10;&#10;close #5" />
     <MESSAGE value="Configuração do Ci&#10;&#10;close #5" />
     <MESSAGE value="Configuração do Ci&#10;&#10;close #6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuração do Ci&#10;&#10;close #6" />
+    <MESSAGE value="Configurar locale e Timezone&#10;&#10;close #7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configurar locale e Timezone&#10;&#10;close #7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
