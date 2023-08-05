@@ -1,11 +1,16 @@
-# fly.toml app configuration file generated for cold-hill-3146 on 2023-07-08T17:14:57-03:00
+# fly.toml app configuration file generated for silent-morning-6294 on 2023-08-05T19:05:59-03:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'cold-hill-3146'
-primary_region = 'gig'
+app = "silent-morning-6294"
+primary_region = "gru"
 console_command = "/code/manage.py shell"
+
+[build]
+
+[deploy]
+  release_command = "python manage.py migrate"
 
 [env]
   PORT = "8000"
