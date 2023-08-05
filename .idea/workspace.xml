@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="997a00ae-b25f-46ed-8b23-c0f54f9eede3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pypro/base/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/env-sample" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/env-sample" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/base/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +152,10 @@
       <workItem from="1691073364598" duration="807000" />
       <workItem from="1691074185002" duration="392000" />
       <workItem from="1691086595348" duration="2006000" />
-      <workItem from="1691089071974" duration="2070000" />
+      <workItem from="1691089071974" duration="2689000" />
+      <workItem from="1691195659936" duration="5193000" />
+      <workItem from="1691233783333" duration="251000" />
+      <workItem from="1691262449455" duration="676000" />
     </task>
     <task id="LOCAL-00001" summary="close">
       <created>1689076295698</created>
@@ -310,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691070466284</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="admin usuário &#10;&#10;close #11">
+      <option name="closed" value="true" />
+      <created>1691091474293</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1691091474293</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +339,8 @@
     <MESSAGE value="Configuração do Ci&#10;&#10;close #6" />
     <MESSAGE value="Configurar locale e Timezone&#10;&#10;close #7" />
     <MESSAGE value="Configuração variávels do aws&#10;&#10;close #8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuração variávels do aws&#10;&#10;close #8" />
+    <MESSAGE value="admin usuário &#10;&#10;close #11" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin usuário &#10;&#10;close #11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -344,6 +354,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/curso_django$Runserver_.coverage" NAME="Runserver  Coverage Results" MODIFIED="1691090314291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/curso_django$Runserver_.coverage" NAME="Runserver  Coverage Results" MODIFIED="1691262721595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
