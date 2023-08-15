@@ -13,7 +13,8 @@ from email.policy import default
 from functools import partial
 from pathlib import Path
 import os
-
+import sentry_sdk
+from sentry_sdk.integrations.django import DjangoIntegration
 
 
 import dj_database_url
@@ -65,6 +66,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+
 ROOT_URLCONF = 'pypro.urls'
 
 TEMPLATES = [
@@ -84,6 +86,13 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'pypro.wsgi.application'
+
+#configuração Debug Tollbar
+INTERNAL_IPS=config('INTERNAL_IPS', cast=Csv(), default='127.0.0.1')
+
+if DEBUG:
+    INSTALLED_APPS.append('debug_toolbar')
+    MIDDLEWARE.insert(0,'debug_toolbar.middleware.DebugToolbarMiddleware')
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
@@ -151,15 +160,12 @@ if AWS_ACCESS_KEY_ID:
     AWS_S3_OBJECT_PARAMETERS = {'CacheControl': 'max-age=86400', }
     AWS_PRELOAD_METADATA = True
     AWS_AUTO_CREATE_BUCKET = False
-    AWS_QUERYSTRING_AUTH = True
-
-    COLLECTFAST_ENABLE = True
-
+    AWS_QUERYSTRING_AUTH = False
     AWS_S3_CUSTOM_DOMAIN = None
-
     AWS_DEFAULT_ACL = 'private'
 
     COLLECTFAST_STRATEGY = "collectfast.strategies.boto3.Boto3Strategy"
+    COLLECTFAST_ENABLED = True
 
 
 
@@ -181,3 +187,9 @@ if AWS_ACCESS_KEY_ID:
     INSTALLED_APPS.append('storages')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+SENTRY_DSN=config('SENTRY_DSN', default=None)
+if SENTRY_DSN:
+    sentry_sdk.init(dsn=SENTRY_DSN, integrations=[DjangoIntegration()])

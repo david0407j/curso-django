@@ -13,6 +13,8 @@ psycopg2-binary = "*"
 django-s3-folder-storage = "*"
 django-storages = "*"
 collectfast = "*"
+django-debug-toolbar = "*"
+sentry-sdk = "*"
 
 [dev-packages]
 flake8 = "*"
@@ -21,4 +23,3 @@ codecov = "*"
 
 [requires]
 python_version = "3.7"
-release: python manage.py migrate --noinput
