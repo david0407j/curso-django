@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for quiet-snow-4731 on 2023-08-11T18:41:16-03:00
+# fly.toml app configuration file generated for old-smoke-5239 on 2023-08-15T13:15:11-03:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "quiet-snow-4731"
+app = "old-smoke-5239"
 primary_region = "gru"
 console_command = "/code/manage.py shell"
 
