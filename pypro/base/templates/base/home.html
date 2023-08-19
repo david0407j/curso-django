@@ -10,13 +10,14 @@
 
     <meta name="description" content="Página do curso Python Pro">
     <meta name="author" content="Davidson Junio!">
+      <link rel=" icon" type="image/png"href="{% static 'img/favicon.png' %}"/>
+
 
     <link href="{% static  'css/bootstrap.min.css' %}" rel="stylesheet">
     <link href="{% static  'css/style.css' %}" rel="stylesheet">
      <script src="{% static  'js/jquery.min.js' %}"></script>
     <script src="{% static  'js/bootstrap.min.js' %}"></script>
-    <script src="{% static
-     'js/scripts.js' %}"></script>
+    <script src="{% static 'js/scripts.js' %}"></script>
 
   </head>
   <body>
@@ -31,28 +32,62 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
         </li>
+          curso de Python com Luciano Ramalho
       </ul>
+        confira em breve mais infromações sobre o curso que será ministrado pelo autor do livor
+        <a href="https://www.academia.edu/53295237/Python_Fluente_by_Luciano_Ramalho"target="_blank" >Python Fluente </a>
   </div>
 </nav>
 
-    <div class="container-fluid" _msthidden="3">
+    <div class="container">
 	<div class="row" _msthidden="3">
 		<div class="col-md-12" _msthidden="3">
 			<div class="card" _msthidden="3">
 				<h5 class="card-header" _msttexthash="307684" _msthidden="1" _msthash="465">
-					Título do cartão
+					mais detalhes sobre o instrutor
 				</h5>
-				<div class="card-body" _msthidden="1">
-					<p class="card-text" _msttexthash="375336" _msthidden="1" _msthash="466">
-						Conteúdo do cartão
+				<div class="card-body" >
+					<p class="card-text">
+                        <img src="{% static 'img/Luciano-Ramalho.png' %}"  alt=" foto de Luciano Ramalho"
+                             class="img-thumbnail float-md-start me-sm-3"/>
+                        Ramalho é sócio e professor na <a href="https://www.python.pro.br">Python Pro</a> e autor do Livro
+                        Python Fluente. Foi diretor técnico do Brasil Online, primeiro portal da Abril S/A na Web.
+                        Liderou times para os portais IDG Now, BOL, UOL, AOL Brasil e outros, usando Python desde 1998.
+                        Como instrutor, atendeu clientes como Citibank, CPqD, Serpro, Presidência da República,
+                        Globo.com e Itaú. Palestrante em eventos internacionais como FISL, PyCon US e OSCON. Ajudou a
+                        criar a Associação Python Brasil e foi seu presidente. É membro da Python Software Foundation e
+                        fundador do Garoa Hacker Clube, o primeiro hackerspace do Brasil.
+
 					</p>
 				</div>
-				<div class="card-footer" _msttexthash="309530" _msthidden="1" _msthash="467">
-					Rodapé do cartão
+				<div
 				</div>
 			</div>
 		</div>
 	</div>
+  <footer class="main-footer">
+      <div class="accordion">
+          <div class="row-cols-md-1">
+              <div class="col">
+                  <h3>Entre em contato </h3>
+                  <address>
+                      +55 319998-77-98
+                      <br/>
+                      <a href="mailto:djunio239@gmail.com">djunio239@gmail.com</a>
+                  </address>
+
+              </div>
+          </div>
+      </div>
+      <div class="accordion">
+          <div class="row-cols-md-1">
+              <div class="col">
+                  {% now 'Y' %} Python pro. todos direitos reservados.
+
+              </div>
+          </div>
+      </div>
+  </footer>
 </div>
 
     <script src="js/jquery.min.js"></script>
