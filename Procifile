@@ -1,2 +1,3 @@
-elease: python manage.py migrate --noinputyr
+release: python manage.py migrate --noinput
 web: gunicornpypro.wsgi--log-file -
+

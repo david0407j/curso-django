@@ -1,100 +1,143 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Python Pro </title>
+    <title>Python Pro</title>
 
     <meta name="description" content="Página do curso Python Pro">
-    <meta name="author" content="Davidson Junio!">
-       <link rel=" icon" type="image/png"href="{% static 'img/favicon.png' %}"/>
+    <meta name="author" content="Jonathan Manoel">
+    <link rel="icon" type="image/png" href="{% static 'img/favicon.png' %}" />
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/scripts.js' %}"></script>
 
-    <link href="{% static  'css/bootstrap.min.css' %}" rel="stylesheet">
-    <link href="{% static  'css/style.css' %}" rel="stylesheet">
-      <script src="{% static 'js/jquery.min.js' %}"></script>
-      <script src="{% static 'js/bootstrap.min.js' %}"></script>
-      <script src="{% static 'js/scripts.js' %}"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="{% url 'base:home' %}">Python Pro</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-  </head>
-  <body>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="{% url 'base:home'%}">Python Pro</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-        </li>
-          curso de Python com Luciano Ramalho
-      </ul>
-        confira em breve mais infromações sobre o curso que será ministrado pelo autor do livor
-        <a href="https://www.academia.edu/53295237/Python_Fluente_by_Luciano_Ramalho"target="_blank" >Python Fluente </a>
+    </ul>
   </div>
 </nav>
 
     <div class="container">
-	<div class="row" _msthidden="3">
-		<div class="col-md-12" _msthidden="3">
-			<div class="card" _msthidden="3">
-				<h5 class="card-header" _msttexthash="307684" _msthidden="1" _msthash="465">
-					mais detalhes sobre o instrutor
-				</h5>
-				<div class="card-body" >
-					<p class="card-text">
-                        <img src="{% static 'img/Luciano-Ramalho.png' %}"  alt=" foto de Luciano Ramalho"
-                             class="img-thumbnail float-md-start me-sm-3"/>
-                        Ramalho é sócio e professor na <a href="https://www.python.pro.br">Python Pro</a> e autor do Livro
-                        Python Fluente. Foi diretor técnico do Brasil Online, primeiro portal da Abril S/A na Web.
-                        Liderou times para os portais IDG Now, BOL, UOL, AOL Brasil e outros, usando Python desde 1998.
-                        Como instrutor, atendeu clientes como Citibank, CPqD, Serpro, Presidência da República,
-                        Globo.com e Itaú. Palestrante em eventos internacionais como FISL, PyCon US e OSCON. Ajudou a
-                        criar a Associação Python Brasil e foi seu presidente. É membro da Python Software Foundation e
-                        fundador do Garoa Hacker Clube, o primeiro hackerspace do Brasil.
+        <div class="row">
+		    <div class="col-md-12">
 
+			    <div class="jumbotron card card-block">
+				    <h2>
+					    Curso de Python com Luciano Ramalho
+                        <h2>
+     <h4 class="mt-4"Matriculas abertas!custo R$ 1000,00 </h4>
+    <div class="container">
+        <div class="row">
+		    <div class="col-md-12">
+
+			    <div class="jumbotron card card-block">
+				    <h2>
+					    Curso de Python com Luciano Ramalho
+				    </h2>
+                        <h4 class="mt-4">Matrículas Abertas! Custo R$ 1000,00</h4>
+                            <!-- Inicio Botão Mercado Pago-->
+                            <script src="https://www.mercadopago.com.br/integrations/v1/web-payment-checkout.js"
+                                data-preference-id="77174132-76fe0994-802a-4d67-acbf-45a8d79c5cb3"
+                                data-source="button">
+
+                            </script>
+
+                  {#    <h4 class="mt-4">Entre na fila de espera.</h4> #}
+                 {#  <form action="https://python.us14.list-manage.com/subscribe/post?u=e4ab23267ba713ea0a9d0bd3b&amp;id=a240026cb3"#}
+                         {#   method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"#}
+                          {#  class="form-row align-items-center" target="_blank" novalidate>#}
+                        {#<div class="form-row align-items-center">#}
+                            {#<div class="col-auto">#}
+                              {#    <label class="sr-only" for="mce-EMAIL">Email</label>#}
+                                {#<input type="email" value="" class="form-control required" id="mce-EMAIL"#}
+                                       {#  placeholder="exemplo@email.com">#}
+                            {#  </div>#}
+                            {#  <div class="col-auto">#}
+                                {#  <label class="sr-only" for="mce-FNAME">Email</label>#}
+                                {#  <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME" placeholder="Seu Nome">#}
+                            {# </div>#}
+
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                          {#   <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"#}
+                                                                                                      {#name="b_e4ab23267ba713ea0a9d0bd3b_a240026cb3"#}
+                                                                                                      {#tabindex="-1"#}
+                                                                                                      {#  value=""></div>#}
+
+
+                          {# <div class="col-auto"> #}
+                               {# <input type="submit" value="Subscribe" name="subscribe" #}
+                                      {# id="mc-embedded-subscribe" class="btn btn-primary"> #}
+                            {#</div>#}
+                        {#  </div> #}
+                   {# </form> #}
+
+
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="card">
+				<h5 class="card-header">
+					Mais detalhes sobre o instrutor
+				</h5>
+				<div class="card-body">
+					<p class="card-text">
+						<img src="{% static 'img/luciano-ramalho.png' %}" alt="Foto de Luciano Ramalho"
+                             class="img-thumbnail float-left mr-3"/>
+                        Ramalho é sócio e professor na <a href="https://www.python.pro.br">Python Pro</a>
+                        e autor do Livro <a href="https://www.amazon.com/_/dp/1491946008?tag=oreilly20-20"
+                                            target="_blank" >Python Fluente</a>. Foi diretor técnico do Brasil Online,
+                        primeiro portal da Abril S/A na Web. Liderou times para os portais IDG Now, BOL, UOL, AOL Brasil e outros,
+                        usando Python desde 1998. Como instrutor, atendeu clientes como Citibank, CPqD, Serpro,
+                        Presidência da República, Globo.com e Itaú. Palestrante em eventos internacionais como FISL,
+                        PyCon US e OSCON. Ajudou a criar a Associação Python Brasil e foi seu presidente.
+                        É membro da Python Software Foundation e fundador do Garoa Hacker Clube,
+                        o primeiro hackerspace do Brasil.
 					</p>
-				</div>
-				<div>
 				</div>
 			</div>
 		</div>
 	</div>
-  <footer class="main-footer mt-5 pt-4 text-light">
-      <div class="accordion">
-          <div class="row-cols-md-1">
-              <div class="col">
-                  <h3>Entre em contato </h3>
-                  <address>
-                      +55 319998-77-98
-                      <br/>
-                      <a href="mailto:djunio239@gmail.com"class="text-light">djunio239@gmail.com</a>
-                  </address>
-
-              </div>
-          </div>
-      </div>
-      <div class="rights pb-4">
-      <div class="accordion">
-          <div class="row-cols-md-1">
-              <div class="col">
-                  {% now 'Y' %} Python pro. todos direitos reservados.
-
-              </div>
-          </div>
-       </div>
-      </div>
-
-
-  </footer>
 </div>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-  </body>
+<footer class="main-footer mt-5 pt-4 text-light">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3>Entre em Contato</h3>
+                <address>
+                    +55 31 999877987
+                    <br/>
+                    <a href="mailto:djunio239@gmail.com" class="text-light">djunio239@gmail.com</a>
+                </address>
+            </div>
+        </div>
+    </div>
+    <div class="rights pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    {% now 'Y' %} Python Pro. Todos direitos reservados.
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
 </html>
