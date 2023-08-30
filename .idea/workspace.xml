@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="997a00ae-b25f-46ed-8b23-c0f54f9eede3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pypro/aperitivos/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/aperitivos/templetes/aperitivos/video.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/aperitivos/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/aperitivos/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/aperitivos/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procifile" beforeDir="false" afterPath="$PROJECT_DIR$/Procifile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/env-sample" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/env-sample" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fly.toml" beforeDir="false" afterPath="$PROJECT_DIR$/fly.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/base/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/base/templates/base/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/templates/base/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/templetes/aperitivos/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/templetes/aperitivos/video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/tests/test_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/tests/test_home.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,30 +62,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/david/PycharmProjects/curso-django/pypro/aperitivos",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "settings.editor.splitter.proportion": "0.25853154",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/david/PycharmProjects/curso-django/pypro/aperitivos&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.25853154&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\david\PycharmProjects\curso-django\pypro\aperitivos" />
@@ -105,7 +95,10 @@
       <recent name="C:\Users\david\PycharmProjects\curso-django\pypro\base\static\css" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in tests.py">
+  <component name="RunManager" selected="Python tests.Python tests for tests.test_conteudo_video">
+    <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/curso-django/pypro/base/templates/base/home.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="Runserver " type="PythonConfigurationType" factoryName="Python">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,55 +143,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="curso-django" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\david\.virtualenvs\curso-django-lwIwwwb_\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pypro/base/urls.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_home.test_home_link" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.test_conteudo_video" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/base/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/aperitivos" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_home.test_home_link&quot;" />
+      <option name="_new_target" value="&quot;tests.test_conteudo_video&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_home.test_status_code" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.test_status_code" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/base/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/aperitivos" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_home.test_status_code&quot;" />
+      <option name="_new_target" value="&quot;tests.test_status_code&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -234,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in tests.py" />
+        <item itemvalue="Python tests.Python tests for tests.test_conteudo_video" />
         <item itemvalue="Python tests.Python tests in test_home.py" />
-        <item itemvalue="Python tests.Python tests for test_home.test_status_code" />
-        <item itemvalue="Python.urls" />
-        <item itemvalue="Python tests.Python tests for test_home.test_home_link" />
+        <item itemvalue="JavaScript Debug.home.html" />
+        <item itemvalue="Python tests.Python tests for tests.test_status_code" />
+        <item itemvalue="Python tests.Python tests in tests.py" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +285,8 @@
       <workItem from="1693097276894" duration="633000" />
       <workItem from="1693144592114" duration="1107000" />
       <workItem from="1693177911299" duration="3928000" />
-      <workItem from="1693264563503" duration="2872000" />
+      <workItem from="1693264563503" duration="3708000" />
+      <workItem from="1693349428848" duration="5285000" />
     </task>
     <task id="LOCAL-00001" summary="close">
       <created>1689076295698</created>
@@ -526,7 +498,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692656778185</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="tests video &#10;&#10;close #18">
+      <option name="closed" value="true" />
+      <created>1693267721185</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1693267721185</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +533,8 @@
     <MESSAGE value="tests do django&#10;&#10;close #14" />
     <MESSAGE value="configuração do html&#10;&#10;close #15" />
     <MESSAGE value="Criado landing Page&#10;&#10;close #16" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criado landing Page&#10;&#10;close #16" />
+    <MESSAGE value="tests video &#10;&#10;close #18" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests video &#10;&#10;close #18" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -568,7 +549,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/curso_django$urls.coverage" NAME="urls Coverage Results" MODIFIED="1692145440057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
-    <SUITE FILE_PATH="coverage/curso_django$Runserver_.coverage" NAME="Runserver  Coverage Results" MODIFIED="1693264575648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/curso_django$.coverage" NAME=" Coverage Results" MODIFIED="1693267413087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/aperitivos" />
+    <SUITE FILE_PATH="coverage/curso_django$Runserver_.coverage" NAME="Runserver  Coverage Results" MODIFIED="1693350051572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/curso_django$urls__1_.coverage" NAME="urls (1) Coverage Results" MODIFIED="1693349651298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/curso_django$.coverage" NAME=" Coverage Results" MODIFIED="1693356689479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/aperitivos" />
   </component>
 </project>
