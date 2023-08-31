@@ -206,9 +206,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests for tests.test_conteudo_video" />
+        <item itemvalue="Python tests.Python tests for tests.test_status_code" />
         <item itemvalue="Python tests.Python tests in test_home.py" />
         <item itemvalue="JavaScript Debug.home.html" />
-        <item itemvalue="Python tests.Python tests for tests.test_status_code" />
         <item itemvalue="Python tests.Python tests in tests.py" />
       </list>
     </recent_temporary>
@@ -286,7 +286,8 @@
       <workItem from="1693144592114" duration="1107000" />
       <workItem from="1693177911299" duration="3928000" />
       <workItem from="1693264563503" duration="3708000" />
-      <workItem from="1693349428848" duration="5285000" />
+      <workItem from="1693349428848" duration="5621000" />
+      <workItem from="1693442558778" duration="1012000" />
     </task>
     <task id="LOCAL-00001" summary="close">
       <created>1689076295698</created>
@@ -506,7 +507,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693267721185</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="tests vimeo&#10;&#10;close #19">
+      <option name="closed" value="true" />
+      <created>1693356886338</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1693356886338</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,7 +543,8 @@
     <MESSAGE value="configuração do html&#10;&#10;close #15" />
     <MESSAGE value="Criado landing Page&#10;&#10;close #16" />
     <MESSAGE value="tests video &#10;&#10;close #18" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests video &#10;&#10;close #18" />
+    <MESSAGE value="tests vimeo&#10;&#10;close #19" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests vimeo&#10;&#10;close #19" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -549,8 +559,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/curso_django$urls.coverage" NAME="urls Coverage Results" MODIFIED="1692145440057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
-    <SUITE FILE_PATH="coverage/curso_django$Runserver_.coverage" NAME="Runserver  Coverage Results" MODIFIED="1693350051572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/curso_django$Runserver_.coverage" NAME="Runserver  Coverage Results" MODIFIED="1693442688753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/curso_django$urls__1_.coverage" NAME="urls (1) Coverage Results" MODIFIED="1693349651298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
-    <SUITE FILE_PATH="coverage/curso_django$.coverage" NAME=" Coverage Results" MODIFIED="1693356689479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/aperitivos" />
+    <SUITE FILE_PATH="coverage/curso_django$.coverage" NAME=" Coverage Results" MODIFIED="1693443488996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/aperitivos" />
   </component>
 </project>
