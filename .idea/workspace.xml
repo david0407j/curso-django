@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="997a00ae-b25f-46ed-8b23-c0f54f9eede3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pypro/aperitivos/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/templetes/aperitivos/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/templates/aperitivos/video.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/templates/aperitivos/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/templates/aperitivos/video.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -293,7 +288,7 @@
       <workItem from="1693521372261" duration="549000" />
       <workItem from="1693521995070" duration="900000" />
       <workItem from="1693523229553" duration="5158000" />
-      <workItem from="1693695100095" duration="6506000" />
+      <workItem from="1693695100095" duration="6888000" />
     </task>
     <task id="LOCAL-00001" summary="close">
       <created>1689076295698</created>
@@ -529,7 +524,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693443843696</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="incorporado primeiro video do vimeo de forma manual &#10;&#10;close #17">
+      <option name="closed" value="true" />
+      <created>1693701788219</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1693701788219</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +562,8 @@
     <MESSAGE value="tests video &#10;&#10;close #18" />
     <MESSAGE value="tests vimeo&#10;&#10;close #19" />
     <MESSAGE value="tests &#10;&#10;close #20" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests &#10;&#10;close #20" />
+    <MESSAGE value="incorporado primeiro video do vimeo de forma manual &#10;&#10;close #17" />
+    <option name="LAST_COMMIT_MESSAGE" value="incorporado primeiro video do vimeo de forma manual &#10;&#10;close #17" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
