@@ -20,7 +20,7 @@ COPY Pipfile Pipfile.lock /code/
 RUN pipenv install --deploy --system
 COPY . /code
 
-ENV SECRET_KEY "QuO1evbKhS30MWKXlctebK4tAdBtE31R35rOMh13c1kT0LPRAl"
+ENV SECRET_KEY "vtiPEKH9FaIEQzaMCv27JMSXTymk8FfEeNX921vyadKeUWJw6R"
 
 
 EXPOSE 8000
