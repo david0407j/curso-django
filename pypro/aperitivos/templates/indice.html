@@ -2,14 +2,11 @@
 {% load static %}
 <title>{% block title %}Python Pro Aperitivo{% endblock title %}</title>
 {% block description %}Página com video gratuito de python{% endblock description%}
-{% block body %}
+{% block bady %}
       <div class="container">
           <div class="row">
           <div class="col-md-12">
 
-           <h1 class="mt-4 mb-3">{{ video.titulo | default:"Faltando Título" }}</h1>
-            <iframe src="https://player.vimeo.com/video/{{ video.vimeo_id }}" width="640" height="360" frameborder="0"
-                    allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 </div>

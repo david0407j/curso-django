@@ -1,6 +1,10 @@
 from django.shortcuts import render
 
 
+def indice(request):
+    return render(request, 'aperitivos/indice.html')
+
+
 def video(request, slug):
     videos = {
      'motivacao': {'titulo': 'Video Aperitivo: Motivacao', 'vimeo_id': 682069825},
