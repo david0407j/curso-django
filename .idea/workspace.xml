@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="997a00ae-b25f-46ed-8b23-c0f54f9eede3" name="Changes" comment="" />
+    <list default="true" id="997a00ae-b25f-46ed-8b23-c0f54f9eede3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/templates/indice.html" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/templates/aperitivos/indice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/tests/tests_indice.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/tests/tests_indice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/tests/tests_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/tests/tests_video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,6 +100,7 @@
       <recent name="C:\Users\david\PycharmProjects\curso-django\pypro\aperitivos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\david\PycharmProjects\curso-django\pypro\aperitivos\templates\aperitivos" />
       <recent name="C:\Users\david\PycharmProjects\curso-django\pypro\aperitivos\tests" />
     </key>
   </component>
@@ -107,7 +114,7 @@
       <recentPaths value="$PROJECT_DIR$" />
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for tests_indice.test_status_code">
+  <component name="RunManager" selected="Python tests.Python tests for tests_indice.test_titulo_video">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,20 +159,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests_indice.test_conteudo_video" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="curso-django" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/aperitivos/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests_indice.test_conteudo_video&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for tests_indice.test_status_code" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,7 +201,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests_video.test_titulo_video" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in tests_video.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -218,17 +211,16 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests_video.test_titulo_video&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro/aperitivos/tests/tests_video.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for tests_indice.test_titulo_video" />
+        <item itemvalue="Python tests.Python tests in tests_video.py" />
         <item itemvalue="Python tests.Python tests for tests_indice.test_status_code" />
         <item itemvalue="Python tests.Python tests for tests_video.test_conteudo_video" />
-        <item itemvalue="Python tests.Python tests for tests_indice.test_conteudo_video" />
-        <item itemvalue="Python tests.Python tests for tests_indice.test_titulo_video" />
-        <item itemvalue="Python tests.Python tests for tests_video.test_titulo_video" />
       </list>
     </recent_temporary>
   </component>
@@ -620,7 +612,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694877506062</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="tests video&#10;close #25">
+      <option name="closed" value="true" />
+      <created>1694877734219</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1694877734219</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -656,7 +656,8 @@
     <MESSAGE value="tests video &#10;&#10;close #23" />
     <MESSAGE value=" criar página para segundo video aperitivo&#10;&#10;close #22" />
     <MESSAGE value="tests video&#10;close #24" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests video&#10;close #24" />
+    <MESSAGE value="tests video&#10;close #25" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests video&#10;close #25" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
