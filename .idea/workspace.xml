@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="997a00ae-b25f-46ed-8b23-c0f54f9eede3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/templates/indice.html" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/templates/aperitivos/indice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/tests/tests_indice.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/tests/tests_indice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/tests/tests_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/tests/tests_video.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/templates/aperitivos/indice.html" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/templates/aperitivos/indice.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -620,7 +616,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694877734219</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="tests video&#10;close #25">
+      <option name="closed" value="true" />
+      <created>1695082445878</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1695082445878</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
