@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="997a00ae-b25f-46ed-8b23-c0f54f9eede3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fly.toml" beforeDir="false" afterPath="$PROJECT_DIR$/fly.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flake8" beforeDir="false" afterPath="$PROJECT_DIR$/.flake8" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -709,9 +708,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Criado infra de tests com pytest-django&#10;&#10;close #3" />
-    <MESSAGE value="Extrair configuração de SECRET_KEY&#10;&#10;close #4" />
-    <MESSAGE value="Extrair configuração ALLOWAD_HOSTS &#10;&#10;close #5" />
     <MESSAGE value="Configuração do Ci&#10;&#10;close #5" />
     <MESSAGE value="Configuração do Ci&#10;&#10;close #6" />
     <MESSAGE value="Configurar locale e Timezone&#10;&#10;close #7" />
@@ -734,7 +730,10 @@
     <MESSAGE value="tests video&#10;close #26" />
     <MESSAGE value="tests-base&#10;close #27" />
     <MESSAGE value="Configuração fly.io&#10;close #28" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuração fly.io&#10;close #28" />
+    <MESSAGE value="Configuração fly.io&#10;close #29" />
+    <MESSAGE value="Pos release.sh &#10;close #30" />
+    <MESSAGE value="Biblioteca flake8&#10;close #31" />
+    <option name="LAST_COMMIT_MESSAGE" value="Biblioteca flake8&#10;close #31" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
