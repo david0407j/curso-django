@@ -6,11 +6,12 @@
       <div class="container">
           <div class="row">
           <div class="col-md-12">
-              <h1 class="mt-4 mb-3">lista videos Aperitivos</h1>
+              <h1 class="mt-4 mb-3">lista de videos Aperitivos</h1>
               <ol>
                   {% for video in videos %}
-                  <li>{{ video.titulo | default:"Faltando Título" }</li>
-                  <li> Não foi encontrado nenhum video de aperitivos</li>
+                   <li><a href="{{ video.get_absolute_url }}"></a>{{ video.titulo | default:"Faltando Titulo" }}</li>
+                  {% empty %}
+                        <li> Não foi encontrado nenhum video de aperitivos</li>
                   {% endfor %}
               </ol>
 
