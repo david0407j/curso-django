@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="997a00ae-b25f-46ed-8b23-c0f54f9eede3" name="Changes" comment="" />
+    <list default="true" id="997a00ae-b25f-46ed-8b23-c0f54f9eede3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -661,7 +663,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695253153975</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="tests-base&#10;close #27">
+      <option name="closed" value="true" />
+      <created>1695253409373</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1695253409374</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -674,7 +684,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="close" />
     <MESSAGE value="criado app base &#10;&#10;clone #2" />
     <MESSAGE value="Criado infra de tests com pytest-django&#10;&#10;close #3" />
     <MESSAGE value="Extrair configuração de SECRET_KEY&#10;&#10;close #4" />
@@ -699,7 +708,8 @@
     <MESSAGE value="tests video&#10;close #24" />
     <MESSAGE value="tests video&#10;close #25" />
     <MESSAGE value="tests video&#10;close #26" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests video&#10;close #26" />
+    <MESSAGE value="tests-base&#10;close #27" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests-base&#10;close #27" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
