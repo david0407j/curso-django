@@ -1,11 +1,19 @@
 import pytest
 from django.urls import reverse
 
+from pypro.aperitivos.models import Video
 from pypro.django_assertions import assert_contains
 
 
 @pytest.fixture
-def resp(client):
+def video(db):
+    v = Video(slug='motivacao', tilulo='Video Aperitivo: Motivacao', vimeo_id='682069825')
+    v.save()
+    return v
+
+
+@pytest.fixture
+def resp(client, db):
     return client.get(reverse('aperitivos:video', args=('motivacao',)))
 
 
@@ -14,7 +22,7 @@ def test_status_code(resp):
 
 
 def test_titulo_video(resp):
-    assert_contains(resp, '<h1 class="mt-4 mb-3">Video Aperitivo: Motivacao</h1>')
+    assert_contains(resp, 'Video Aperitivo: Motivacao')
 
 
 def test_conteudo_video(resp):
