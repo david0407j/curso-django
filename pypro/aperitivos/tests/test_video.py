@@ -1,6 +1,5 @@
 import pytest
 from django.urls import reverse
-
 from pypro.aperitivos.models import Video
 from pypro.django_assertions import assert_contains
 
@@ -13,7 +12,7 @@ def video(db):
 
 
 @pytest.fixture
-def resp(client, db):
+def resp(client, video):
     return client.get(reverse('aperitivos:video', args=('motivacao',)))
 
 
