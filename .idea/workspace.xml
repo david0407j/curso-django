@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="997a00ae-b25f-46ed-8b23-c0f54f9eede3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.flake8" beforeDir="false" afterPath="$PROJECT_DIR$/.flake8" afterDir="false" />
+    <list default="true" id="997a00ae-b25f-46ed-8b23-c0f54f9eede3" name="Changes" comment="banco de dados&#10;close #34">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/tests/test_indice.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/tests/test_indice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/tests/test_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/tests/test_video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -28,6 +35,7 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -71,7 +79,7 @@
     &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/david/PycharmProjects/curso-django/pypro/aperitivos/templates&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/david/PycharmProjects/curso-django/pypro&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -110,7 +118,7 @@
       <recentPaths value="$PROJECT_DIR$" />
     </option>
   </component>
-  <component name="RunManager" selected="Python.django">
+  <component name="RunManager" selected="Python tests.Python tests for test_indice.test_link_video">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,7 +128,7 @@
       </envs>
       <option name="SDK_HOME" value="C:\Users\david\.virtualenvs\curso-django-lwIwwwb_\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -155,57 +163,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="curso-django" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\david\.virtualenvs\curso-django-lwIwwwb_\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pypro/base/views.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_home.test_email_link" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="curso-django" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/base/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_home.test_email_link&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_home.test_home_link" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="curso-django" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/base/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_home.test_home_link&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for tests_indice.test_link_video" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_indice.test_link_video" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -215,11 +179,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests_indice.test_link_video&quot;" />
+      <option name="_new_target" value="&quot;test_indice.test_link_video&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests_indice.test_titulo_video" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_indice.test_titulo_video" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -229,17 +193,104 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests_indice.test_titulo_video&quot;" />
+      <option name="_new_target" value="&quot;test_indice.test_titulo_video&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_video.test_status_code_video_n_encontrada" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="curso-django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/aperitivos/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_video.test_status_code_video_n_encontrada&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_video.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="curso-django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/aperitivos/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro/aperitivos/tests/test_video.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="curso-django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\david\PycharmProjects\curso-django\.venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.7 (curso-django)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--nomigrations -s&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testa tudo com migrações " type="tests" factoryName="py.test">
+      <module name="curso-django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\david\PycharmProjects\curso-django\.venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.7 (curso-django)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;-s &quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testa tudo sem migrações" type="tests" factoryName="py.test">
+      <module name="curso-django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\david\PycharmProjects\curso-django\.venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.7 (curso-django)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--nomigrations -s&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.django" />
+      <item itemvalue="Python tests.testa tudo sem migrações" />
+      <item itemvalue="Python tests.testa tudo com migrações " />
+      <item itemvalue="Python tests.Python tests for test_indice.test_link_video" />
+      <item itemvalue="Python tests.Python tests for test_indice.test_titulo_video" />
+      <item itemvalue="Python tests.Python tests for test_video.test_status_code_video_n_encontrada" />
+      <item itemvalue="Python tests.Python tests in test_video.py" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_home.test_email_link" />
-        <item itemvalue="Python.views" />
-        <item itemvalue="Python tests.Python tests for test_home.test_home_link" />
-        <item itemvalue="Python tests.Python tests for tests_indice.test_link_video" />
-        <item itemvalue="Python tests.Python tests for tests_indice.test_titulo_video" />
+        <item itemvalue="Python tests.Python tests for test_indice.test_link_video" />
+        <item itemvalue="Python tests.Python tests in test_video.py" />
+        <item itemvalue="Python tests.Python tests for test_video.test_status_code_video_n_encontrada" />
+        <item itemvalue="Python tests.Python tests for test_indice.test_titulo_video" />
       </list>
     </recent_temporary>
   </component>
@@ -479,126 +530,6 @@
       <option name="project" value="LOCAL" />
       <updated>1691070466284</updated>
     </task>
-    <task id="LOCAL-00024" summary="Customizar Usuário do Django para usar email como nome&#10;&#10;close #9">
-      <option name="closed" value="true" />
-      <created>1691263390206</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1691263390206</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Acrescentada etapa de geração de migrações Fly.io&#10;&#10;close #12">
-      <option name="closed" value="true" />
-      <created>1691275466904</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1691275466904</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Instalar Django Debug Toolbar&#10;&#10;close #13">
-      <option name="closed" value="true" />
-      <created>1692069754288</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1692069754288</updated>
-    </task>
-    <task id="LOCAL-00027" summary="tests do django&#10;&#10;close #14">
-      <option name="closed" value="true" />
-      <created>1692226139625</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1692226139626</updated>
-    </task>
-    <task id="LOCAL-00028" summary="configuração do html&#10;&#10;close #15">
-      <option name="closed" value="true" />
-      <created>1692406414373</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1692406414373</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Criado landing Page&#10;&#10;close #16">
-      <option name="closed" value="true" />
-      <created>1692656778185</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1692656778185</updated>
-    </task>
-    <task id="LOCAL-00030" summary="tests video &#10;&#10;close #18">
-      <option name="closed" value="true" />
-      <created>1693267721185</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1693267721185</updated>
-    </task>
-    <task id="LOCAL-00031" summary="tests vimeo&#10;&#10;close #19">
-      <option name="closed" value="true" />
-      <created>1693356886338</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1693356886338</updated>
-    </task>
-    <task id="LOCAL-00032" summary="tests &#10;&#10;close #20">
-      <option name="closed" value="true" />
-      <created>1693443843696</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1693443843696</updated>
-    </task>
-    <task id="LOCAL-00033" summary="incorporado primeiro video do vimeo de forma manual &#10;&#10;close #17">
-      <option name="closed" value="true" />
-      <created>1693701788219</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1693701788219</updated>
-    </task>
-    <task id="LOCAL-00034" summary="tests video &#10;&#10;close #23">
-      <option name="closed" value="true" />
-      <created>1694481169429</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1694481169430</updated>
-    </task>
-    <task id="LOCAL-00035" summary="tests video &#10;&#10;close #23">
-      <option name="closed" value="true" />
-      <created>1694482888719</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1694482888719</updated>
-    </task>
-    <task id="LOCAL-00036" summary="tests video &#10;&#10;close #23">
-      <option name="closed" value="true" />
-      <created>1694483033414</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1694483033414</updated>
-    </task>
-    <task id="LOCAL-00037" summary="tests video &#10;&#10;close #23">
-      <option name="closed" value="true" />
-      <created>1694483370573</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1694483370573</updated>
-    </task>
-    <task id="LOCAL-00038" summary="tests video &#10;&#10;close #23">
-      <option name="closed" value="true" />
-      <created>1694516145246</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1694516145246</updated>
-    </task>
     <task id="LOCAL-00039" summary=" criar página para segundo video aperitivo&#10;&#10;close #22">
       <option name="closed" value="true" />
       <created>1694562922272</created>
@@ -695,7 +626,127 @@
       <option name="project" value="LOCAL" />
       <updated>1695254045140</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Biblioteca flake8&#10;close #31">
+      <option name="closed" value="true" />
+      <created>1695254191380</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1695254191380</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Configuração docke&#10;close #32">
+      <option name="closed" value="true" />
+      <created>1695254355989</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1695254355990</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Biblioteca Flake8&#10;close #33">
+      <option name="closed" value="true" />
+      <created>1695254525089</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1695254525089</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Configuração Pipfile.lock&#10;close #34">
+      <option name="closed" value="true" />
+      <created>1695254618000</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1695254618000</updated>
+    </task>
+    <task id="LOCAL-00055" summary="requirements.txt &#10;close #35">
+      <option name="closed" value="true" />
+      <created>1695254783573</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1695254783573</updated>
+    </task>
+    <task id="LOCAL-00056" summary="instalação Pipfile &#10;close #36">
+      <option name="closed" value="true" />
+      <created>1695254933714</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1695254933714</updated>
+    </task>
+    <task id="LOCAL-00057" summary="README.Md&#10;close #37">
+      <option name="closed" value="true" />
+      <created>1695255139276</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1695255139276</updated>
+    </task>
+    <task id="LOCAL-00058" summary="instalação manage.py&#10;close #38">
+      <option name="closed" value="true" />
+      <created>1695255215642</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1695255215642</updated>
+    </task>
+    <task id="LOCAL-00059" summary="tests-base&#10;close #39">
+      <option name="closed" value="true" />
+      <created>1695255367605</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1695255367605</updated>
+    </task>
+    <task id="LOCAL-00060" summary="banco de dados&#10;close #40">
+      <option name="closed" value="true" />
+      <created>1695515775561</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1695515775561</updated>
+    </task>
+    <task id="LOCAL-00061" summary="tests banco &#10;close #41">
+      <option name="closed" value="true" />
+      <created>1695860313340</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1695860313340</updated>
+    </task>
+    <task id="LOCAL-00062" summary="tests de video&#10;close #42">
+      <option name="closed" value="true" />
+      <created>1695947664542</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1695947664542</updated>
+    </task>
+    <task id="LOCAL-00063" summary="test_video&#10;close #43">
+      <option name="closed" value="true" />
+      <created>1696181896848</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1696181896848</updated>
+    </task>
+    <task id="LOCAL-00064" summary="test video &#10;close #44">
+      <option name="closed" value="true" />
+      <created>1696292473039</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1696292473040</updated>
+    </task>
+    <task id="LOCAL-00065" summary="teste video &#10;close #45">
+      <option name="closed" value="true" />
+      <created>1696377703572</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1696377703573</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -708,21 +759,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Configuração do Ci&#10;&#10;close #5" />
-    <MESSAGE value="Configuração do Ci&#10;&#10;close #6" />
-    <MESSAGE value="Configurar locale e Timezone&#10;&#10;close #7" />
-    <MESSAGE value="Configuração variávels do aws&#10;&#10;close #8" />
-    <MESSAGE value="admin usuário &#10;&#10;close #11" />
-    <MESSAGE value="Customizar Usuário do Django para usar email como nome&#10;&#10;close #9" />
-    <MESSAGE value="Acrescentada etapa de geração de migrações Fly.io&#10;&#10;close #12" />
-    <MESSAGE value="Instalar Django Debug Toolbar&#10;&#10;close #13" />
-    <MESSAGE value="tests do django&#10;&#10;close #14" />
-    <MESSAGE value="configuração do html&#10;&#10;close #15" />
-    <MESSAGE value="Criado landing Page&#10;&#10;close #16" />
-    <MESSAGE value="tests video &#10;&#10;close #18" />
-    <MESSAGE value="tests vimeo&#10;&#10;close #19" />
-    <MESSAGE value="tests &#10;&#10;close #20" />
-    <MESSAGE value="incorporado primeiro video do vimeo de forma manual &#10;&#10;close #17" />
     <MESSAGE value="tests video &#10;&#10;close #23" />
     <MESSAGE value=" criar página para segundo video aperitivo&#10;&#10;close #22" />
     <MESSAGE value="tests video&#10;close #24" />
@@ -733,7 +769,22 @@
     <MESSAGE value="Configuração fly.io&#10;close #29" />
     <MESSAGE value="Pos release.sh &#10;close #30" />
     <MESSAGE value="Biblioteca flake8&#10;close #31" />
-    <option name="LAST_COMMIT_MESSAGE" value="Biblioteca flake8&#10;close #31" />
+    <MESSAGE value="Configuração docke&#10;close #32" />
+    <MESSAGE value="Biblioteca Flake8&#10;close #33" />
+    <MESSAGE value="requirements.txt &#10;close #35" />
+    <MESSAGE value="instalação Pipfile &#10;close #36" />
+    <MESSAGE value="README.Md&#10;close #37" />
+    <MESSAGE value="instalação manage.py&#10;close #38" />
+    <MESSAGE value="tests-base&#10;close #39" />
+    <MESSAGE value="Configuração Pipfile.lock&#10;close #34" />
+    <MESSAGE value="banco de dados&#10;close #40" />
+    <MESSAGE value="tests banco &#10;close #41" />
+    <MESSAGE value="tests de video&#10;close #42" />
+    <MESSAGE value="test_video&#10;close #43" />
+    <MESSAGE value="test video &#10;close #44" />
+    <MESSAGE value="banco de dados&#10;close #34" />
+    <MESSAGE value="teste video &#10;close #45" />
+    <option name="LAST_COMMIT_MESSAGE" value="teste video &#10;close #45" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

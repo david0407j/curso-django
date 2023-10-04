@@ -15,12 +15,14 @@ django-storages = "*"
 collectfast = "*"
 django-debug-toolbar = "*"
 sentry-sdk = "*"
+docker = "*"
 
 [dev-packages]
 flake8 = "*"
 pytest-cov = "*"
 codecov = "*"
+model-bakery = "*"
+model-mommy = "*"
 
 [requires]
 python_version = "3.7"
-
