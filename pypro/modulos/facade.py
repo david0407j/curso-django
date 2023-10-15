@@ -1,10 +1,10 @@
-from typing import list
+from typing import List
 
-from pypro.modulo.modells import Modulo
+from pypro.modulos.models import Modulo
 
-def test_listar_modulos_ordenados() -> list[Modulo]:
+def test_listar_modulos_ordenados() -> List[Modulo]:
     """
-    lista de módulos ordenados por titulos
+    Lista de módulos ordenados por titulos
     :return:
     """
     return list(Modulo.objects.order_by('titulo').all())
