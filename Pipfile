@@ -16,6 +16,7 @@ collectfast = "*"
 django-debug-toolbar = "*"
 sentry-sdk = "*"
 docker = "*"
+modulo = "*"
 
 [dev-packages]
 flake8 = "*"
