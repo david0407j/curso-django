@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="997a00ae-b25f-46ed-8b23-c0f54f9eede3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypro/modulos/facade.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/facade.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/tests/test_aba_de_modulos.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/tests/test_aba_de_modulos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/tests/test_facade.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/tests/test_facade.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,6 +159,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="facade" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="curso-django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\david\.virtualenvs\curso-django-lwIwwwb_\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pypro/modulos/facade.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
@@ -194,20 +212,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_indice.test_status_code&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_indice.test_titulo_video" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="curso-django" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/aperitivos/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;--no-migrations&quot;" />
-      <option name="_new_target" value="&quot;test_indice.test_titulo_video&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -292,21 +296,21 @@
     </configuration>
     <list>
       <item itemvalue="Python.django" />
+      <item itemvalue="Python.facade" />
       <item itemvalue="Python tests.testa tudo com migrações " />
       <item itemvalue="Python tests.testa tudo sem migrações" />
       <item itemvalue="Python tests.Python tests for test_facade.test_listar_modulos_ordenados" />
       <item itemvalue="Python tests.Python tests for test_indice.test_status_code" />
       <item itemvalue="Python tests.Python tests in test_facade.py" />
       <item itemvalue="Python tests.Python tests in test_aba_de_modulos.py" />
-      <item itemvalue="Python tests.Python tests for test_indice.test_titulo_video" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests in test_facade.py" />
         <item itemvalue="Python tests.Python tests for test_facade.test_listar_modulos_ordenados" />
         <item itemvalue="Python tests.Python tests in test_aba_de_modulos.py" />
+        <item itemvalue="Python.facade" />
         <item itemvalue="Python tests.Python tests for test_indice.test_status_code" />
-        <item itemvalue="Python tests.Python tests for test_indice.test_titulo_video" />
       </list>
     </recent_temporary>
   </component>
@@ -546,14 +550,6 @@
       <option name="project" value="LOCAL" />
       <updated>1691070466284</updated>
     </task>
-    <task id="LOCAL-00042" summary="tests video&#10;close #25">
-      <option name="closed" value="true" />
-      <created>1694877734219</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1694877734219</updated>
-    </task>
     <task id="LOCAL-00043" summary="tests video&#10;close #25">
       <option name="closed" value="true" />
       <created>1695082445878</created>
@@ -762,7 +758,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697335889796</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="test modulos&#10;close #50">
+      <option name="closed" value="true" />
+      <created>1697504063804</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1697504063804</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -775,7 +779,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="tests video&#10;close #25" />
     <MESSAGE value="tests video&#10;close #26" />
     <MESSAGE value="tests-base&#10;close #27" />
     <MESSAGE value="Configuração fly.io&#10;close #28" />
@@ -800,7 +803,8 @@
     <MESSAGE value="tests video&#10;close #46" />
     <MESSAGE value="teste de modulos&#10;close #48" />
     <MESSAGE value="teste  modulo&#10;close #49" />
-    <option name="LAST_COMMIT_MESSAGE" value="teste  modulo&#10;close #49" />
+    <MESSAGE value="test modulos&#10;close #50" />
+    <option name="LAST_COMMIT_MESSAGE" value="test modulos&#10;close #50" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

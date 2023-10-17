@@ -20,4 +20,4 @@ coverage.xml
 .idea
 .vscode
 *.sqlite3
-
+.pgdata
