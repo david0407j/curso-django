@@ -3,7 +3,26 @@
 
 código desenvolvido no módulo de django www.python.pro.br
 
+Código desenvolvido no módulo de Django do Site Python Pro
 
+codecov
 
-![Updates](https://pyup.io/repos/github/david0407j/libpythonpro2/shield.svg)
-[![Python 3](https://pyup.io/repos/github/david0407j/libpythonpro2/python-3-shield.svg)](https://pyup.io/repos/github/david0407j/libpythonpro2/)
+Aplicação disponível aqui
+
+Instruções para instalação:
+Criar e ativar ambiente virtual Python (venv):
+python -m venv .venv
+
+source .venv/bin/activate
+
+Instalar dependências:
+pip install -r requirements.txt
+
+Instalar dependências, inclusive de desenvolvimento:
+pip install -r requirements-dev.txt
+
+Copiar variáveis de ambiente:
+cp contrib/env-sample .env
+
+Rodar Django:
+python manage.py runserver
