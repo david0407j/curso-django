@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'pypro.base',
     'pypro.aperitivos',
     'pypro.modulos',
+    'ordered_model',
 
 
 
@@ -83,6 +84,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'pypro.modulos.context_processors.listar_modulos',
+
             ],
         },
     },
@@ -151,7 +154,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')
 AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID', default=None)
-COLLECTFAST_ENABLE = False
+COLLECTFAST_ENABLED = False
 
 
 # STORAGE CONFIGURATION IN S3 AWS

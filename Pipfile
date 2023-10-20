@@ -17,6 +17,7 @@ django-debug-toolbar = "*"
 sentry-sdk = "*"
 docker = "*"
 modulo = "*"
+django-ordered-model = "*"
 
 [dev-packages]
 flake8 = "*"
