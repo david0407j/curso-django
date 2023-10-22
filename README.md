@@ -5,7 +5,6 @@ código desenvolvido no módulo de django www.python.pro.br
 
 Código desenvolvido no módulo de Django do Site Python Pro
 
-codecov
 
 Aplicação disponível aqui
 
