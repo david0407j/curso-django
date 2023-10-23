@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="997a00ae-b25f-46ed-8b23-c0f54f9eede3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pypro/modulos/templates/aula_detalhe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/modulos/tests/test_aula_detalhe.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/facade.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/facade.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/templates/modulos/modulo_detalhe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/templates/modulos/modulo_detalhe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/tests/test_modulos_detalhe.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/tests/test_modulos_detalhe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/modulos/templates/aula_detalhe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/templates/modulos/aula_detalhe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypro/modulos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypro/modulos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/views.py" afterDir="false" />
     </list>
@@ -70,32 +65,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/david/PycharmProjects/curso-django/pypro/modulos/tests",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.fileTypes",
-    "settings.editor.splitter.proportion": "0.25853154",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/david/PycharmProjects/curso-django/pypro/modulos/tests&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.25853154&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\david\PycharmProjects\curso-django\pypro\modulos\tests" />
@@ -105,6 +100,7 @@
       <recent name="C:\Users\david\PycharmProjects\curso-django\pypro\base\static\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\david\PycharmProjects\curso-django\pypro\modulos\templates\modulos" />
       <recent name="C:\Users\david\PycharmProjects\curso-django\pypro\aperitivos\templates\aperitivos" />
       <recent name="C:\Users\david\PycharmProjects\curso-django\pypro\aperitivos\tests" />
     </key>
@@ -547,14 +543,6 @@
       <option name="project" value="LOCAL" />
       <updated>1691070466284</updated>
     </task>
-    <task id="LOCAL-00047" summary="tests-base&#10;close #27">
-      <option name="closed" value="true" />
-      <created>1695253616120</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1695253616120</updated>
-    </task>
     <task id="LOCAL-00048" summary="Configuração fly.io&#10;close #28">
       <option name="closed" value="true" />
       <created>1695253826506</created>
@@ -763,7 +751,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698017240391</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Test detalha&#10;close #55">
+      <option name="closed" value="true" />
+      <created>1698022281525</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1698022281525</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -776,7 +772,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Pos release.sh &#10;close #30" />
     <MESSAGE value="Biblioteca flake8&#10;close #31" />
     <MESSAGE value="Configuração docke&#10;close #32" />
     <MESSAGE value="Biblioteca Flake8&#10;close #33" />
@@ -801,7 +796,8 @@
     <MESSAGE value="README.md&#10;close #52" />
     <MESSAGE value="testes detalhe &#10;close #53" />
     <MESSAGE value="Criação de Aba de Módulos&#10;close #47" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação de Aba de Módulos&#10;close #47" />
+    <MESSAGE value="Test detalha&#10;close #55" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test detalha&#10;close #55" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
