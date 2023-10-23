@@ -27,6 +27,7 @@ class Aula(OrderedModel):
     order_with_respect_to = 'modulo'
 
 
+
     class Meta(OrderedModel.Meta):
         pass
 
