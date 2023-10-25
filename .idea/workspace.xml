@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="997a00ae-b25f-46ed-8b23-c0f54f9eede3" name="Changes" comment="">
+    <list default="true" id="997a00ae-b25f-46ed-8b23-c0f54f9eede3" name="Changes" comment="Criar Página de Detalhamento de Aula&#10;close #54">
+      <change afterPath="$PROJECT_DIR$/pypro/modulos/templates/modulos/indice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/modulos/tests/test_modulos_indice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/migrations/0006_aula_vimeo_id.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/migrations/0006_aula_vimeo_id.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/migrations/0007_alter_aula_vimeo_id.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/modulos/facade.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/facade.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypro/modulos/templates/modulos/aula_detalhe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/templates/modulos/aula_detalhe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypro/modulos/tests/test_aula_detalhe.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/tests/test_aula_detalhe.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypro/modulos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/modulos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,20 +170,6 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_facade.test_listar_modulos_ordenados" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="curso-django" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/modulos/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_facade.test_listar_modulos_ordenados&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for test_modulos_detalhe.test_titulo" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,6 +223,20 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro/modulos/tests/test_modulos_detalhe.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_modulos_indice.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="curso-django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/modulos/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro/modulos/tests/test_modulos_indice.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -298,19 +295,19 @@
       <item itemvalue="Python.django" />
       <item itemvalue="Python tests.testa tudo com migrações " />
       <item itemvalue="Python tests.testa tudo sem migrações" />
+      <item itemvalue="Python tests.Python tests in test_modulos_indice.py" />
       <item itemvalue="Python tests.Python tests in test_aula_detalhe.py" />
-      <item itemvalue="Python tests.Python tests for test_facade.test_listar_modulos_ordenados" />
       <item itemvalue="Python tests.Python tests for test_modulos_detalhe.test_titulo" />
       <item itemvalue="Python tests.Python tests in test_aba_de_modulos.py" />
       <item itemvalue="Python tests.Python tests in test_modulos_detalhe.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test_modulos_indice.py" />
         <item itemvalue="Python tests.Python tests in test_aula_detalhe.py" />
         <item itemvalue="Python tests.Python tests in test_modulos_detalhe.py" />
         <item itemvalue="Python tests.Python tests in test_aba_de_modulos.py" />
         <item itemvalue="Python tests.Python tests for test_modulos_detalhe.test_titulo" />
-        <item itemvalue="Python tests.Python tests for test_facade.test_listar_modulos_ordenados" />
       </list>
     </recent_temporary>
   </component>
@@ -550,14 +547,6 @@
       <option name="project" value="LOCAL" />
       <updated>1691070466284</updated>
     </task>
-    <task id="LOCAL-00051" summary="Biblioteca flake8&#10;close #31">
-      <option name="closed" value="true" />
-      <created>1695254191380</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1695254191380</updated>
-    </task>
     <task id="LOCAL-00052" summary="Configuração docke&#10;close #32">
       <option name="closed" value="true" />
       <created>1695254355989</created>
@@ -766,7 +755,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698089542534</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Criar Página de Detalhamento de Aula&#10;close #54">
+      <option name="closed" value="true" />
+      <created>1698274220937</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1698274220940</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -779,7 +776,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="requirements.txt &#10;close #35" />
     <MESSAGE value="instalação Pipfile &#10;close #36" />
     <MESSAGE value="README.Md&#10;close #37" />
     <MESSAGE value="instalação manage.py&#10;close #38" />
@@ -804,7 +800,8 @@
     <MESSAGE value="Test Página&#10;close #56" />
     <MESSAGE value="Test Vimeo_id &#10;close #57" />
     <MESSAGE value="Teste vimeo &#10;close #58" />
-    <option name="LAST_COMMIT_MESSAGE" value="Teste vimeo &#10;close #58" />
+    <MESSAGE value="Criar Página de Detalhamento de Aula&#10;close #54" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criar Página de Detalhamento de Aula&#10;close #54" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
