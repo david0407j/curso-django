@@ -6,9 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="997a00ae-b25f-46ed-8b23-c0f54f9eede3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/modulos/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypro/modulos/migrations/0006_aula_vimeo_id.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/migrations/0006_aula_vimeo_id.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/migrations/0007_alter_vimeo_obrigatoria.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/migrations/0007_alter_aula_vimeo_id.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/modulos/migrations/0007_alter_aula_vimeo_id.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/modulos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/modulos/templates/modulos/aula_detalhe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/templates/modulos/aula_detalhe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypro/modulos/tests/test_aula_detalhe.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/tests/test_aula_detalhe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/modulos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +122,7 @@
       <recentPaths value="$PROJECT_DIR$" />
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_aula_detalhe.py">
+  <component name="RunManager" selected="Python.django">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -543,14 +550,6 @@
       <option name="project" value="LOCAL" />
       <updated>1691070466284</updated>
     </task>
-    <task id="LOCAL-00050" summary="Pos release.sh &#10;close #30">
-      <option name="closed" value="true" />
-      <created>1695254045140</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1695254045140</updated>
-    </task>
     <task id="LOCAL-00051" summary="Biblioteca flake8&#10;close #31">
       <option name="closed" value="true" />
       <created>1695254191380</created>
@@ -759,7 +758,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698087404019</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Teste vimeo &#10;close #58">
+      <option name="closed" value="true" />
+      <created>1698089542534</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1698089542534</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -772,7 +779,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Biblioteca Flake8&#10;close #33" />
     <MESSAGE value="requirements.txt &#10;close #35" />
     <MESSAGE value="instalação Pipfile &#10;close #36" />
     <MESSAGE value="README.Md&#10;close #37" />
@@ -797,7 +803,8 @@
     <MESSAGE value="Test detalha&#10;close #55" />
     <MESSAGE value="Test Página&#10;close #56" />
     <MESSAGE value="Test Vimeo_id &#10;close #57" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Vimeo_id &#10;close #57" />
+    <MESSAGE value="Teste vimeo &#10;close #58" />
+    <option name="LAST_COMMIT_MESSAGE" value="Teste vimeo &#10;close #58" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

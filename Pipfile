@@ -18,6 +18,8 @@ sentry-sdk = "*"
 docker = "*"
 modulo = "*"
 django-ordered-model = "*"
+ipython = "*"
+django-extensions = "*"
 
 [dev-packages]
 flake8 = "*"
@@ -25,6 +27,8 @@ pytest-cov = "*"
 codecov = "*"
 model-bakery = "*"
 model-mommy = "*"
+ipython = "*"
+django-extensions = "*"
 
 [requires]
 python_version = "3.7"
