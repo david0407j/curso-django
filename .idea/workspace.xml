@@ -5,25 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="997a00ae-b25f-46ed-8b23-c0f54f9eede3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/contrib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/turmas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/turmas/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/turmas/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/turmas/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/turmas/migrations/0002_criacao_matricula.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/turmas/migrations/0003_restricao_de_matricula_unica.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/turmas/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/turmas/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/turmas/templates/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/turmas/templates/turmas/indice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/turmas/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/turmas/tests/indice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/turmas/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/turmas/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pypro/base/tests/test_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +118,7 @@
       <recentPaths value="$PROJECT_DIR$" />
     </option>
   </component>
-  <component name="RunManager" selected="Python.django">
+  <component name="RunManager" selected="Python tests.Python tests in test_login.py">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,18 +183,18 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in C:/Users/david/PycharmProjects/curso-django/turmas/testes/test_indice.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_login.test_login_form_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/turmas/testes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/base/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/turmas/testes/test_indice.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_login.test_login_form_page&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests in indice.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -225,17 +211,17 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_aula_detalhe.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_login.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="curso-django" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/modulos/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/base/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro/modulos/tests/test_aula_detalhe.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro/base/tests/test_login.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -308,19 +294,19 @@
       <item itemvalue="Python.django" />
       <item itemvalue="Python tests.testa tudo com migrações " />
       <item itemvalue="Python tests.testa tudo sem migrações" />
+      <item itemvalue="Python tests.Python tests for test_login.test_login_form_page" />
+      <item itemvalue="Python tests.Python tests in test_login.py" />
       <item itemvalue="Python tests.Python tests for indice.test_status_code" />
-      <item itemvalue="Python tests.Python tests in C:/Users/david/PycharmProjects/curso-django/turmas/testes/test_indice.py" />
       <item itemvalue="Python tests.Python tests in indice.py" />
       <item itemvalue="Python tests.Python tests in test_modulos_indice.py" />
-      <item itemvalue="Python tests.Python tests in test_aula_detalhe.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test_login.py" />
+        <item itemvalue="Python tests.Python tests for test_login.test_login_form_page" />
         <item itemvalue="Python tests.Python tests in indice.py" />
         <item itemvalue="Python tests.Python tests for indice.test_status_code" />
         <item itemvalue="Python tests.Python tests in test_modulos_indice.py" />
-        <item itemvalue="Python tests.Python tests in C:/Users/david/PycharmProjects/curso-django/turmas/testes/test_indice.py" />
-        <item itemvalue="Python tests.Python tests in test_aula_detalhe.py" />
       </list>
     </recent_temporary>
   </component>
@@ -560,14 +546,6 @@
       <option name="project" value="LOCAL" />
       <updated>1691070466284</updated>
     </task>
-    <task id="LOCAL-00053" summary="Biblioteca Flake8&#10;close #33">
-      <option name="closed" value="true" />
-      <created>1695254525089</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1695254525089</updated>
-    </task>
     <task id="LOCAL-00054" summary="Configuração Pipfile.lock&#10;close #34">
       <option name="closed" value="true" />
       <created>1695254618000</created>
@@ -776,7 +754,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698277683498</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Criar App de Turmas&#10;close #60">
+      <option name="closed" value="true" />
+      <created>1698541245566</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1698541245567</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -789,7 +775,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="README.Md&#10;close #37" />
     <MESSAGE value="instalação manage.py&#10;close #38" />
     <MESSAGE value="tests-base&#10;close #39" />
     <MESSAGE value="Configuração Pipfile.lock&#10;close #34" />
@@ -814,7 +799,8 @@
     <MESSAGE value="Teste vimeo &#10;close #58" />
     <MESSAGE value="Criar Página de Detalhamento de Aula&#10;close #54" />
     <MESSAGE value="Criar Breadcrumb para página de Aulas&#10;close #59" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criar Breadcrumb para página de Aulas&#10;close #59" />
+    <MESSAGE value="Criar App de Turmas&#10;close #60" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criar App de Turmas&#10;close #60" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
