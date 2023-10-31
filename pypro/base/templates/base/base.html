@@ -51,10 +51,34 @@
 
                 </li>
             </ul>
-        </div>
-</nav>
+            {% if user.is_authenticated %}
 
-{% block body %}{% endblock body %}
+            {% else %}
+        </div>
+        <a class="btn btn-light" href="{% url 'login' %}">Entrar</a>
+        {% endif %}
+
+</nav>
+   {% if user.is_authenticated %}
+
+                <ul class="navbar-nav me-5 mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            {{ user.first_name }}
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdown">
+                                <a class="btn btn-danger" href="{% url 'logout' %}">Sair</a>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+
+            {% else %}
+                <a class="btn btn-light" href="{% url 'login' %}">Entrar</a>
+            {% endif %}
+
+{% block body %} {% endblock body %}
 {% include 'base/footer.html' with contato_email='djunio239@gmail.com' only %}
 
 </body>
