@@ -4,37 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="997a00ae-b25f-46ed-8b23-c0f54f9eede3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.flake8" beforeDir="false" afterPath="$PROJECT_DIR$/.flake8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/aperitivos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/aperitivos/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/base/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/base/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/base/tests/test_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/tests/test_home.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/base/tests/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/tests/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/base/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/base/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/django_assertions.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/django_assertions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/context_processors.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/context_processors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/facade.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/facade.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/tests/test_aba_de_modulos.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/tests/test_aba_de_modulos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/tests/test_aula_detalhe.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/tests/test_aula_detalhe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/tests/test_facade.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/tests/test_facade.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/tests/test_modulos_detalhe.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/tests/test_modulos_detalhe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/tests/test_modulos_indice.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/tests/test_modulos_indice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/modulos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/modulos/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/turmas/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/turmas/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/turmas/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/turmas/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/turmas/tests/indice.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/turmas/tests/indice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/turmas/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/turmas/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/wsgi.py" afterDir="false" />
-    </list>
+    <list default="true" id="997a00ae-b25f-46ed-8b23-c0f54f9eede3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -588,22 +558,6 @@
       <option name="project" value="LOCAL" />
       <updated>1691070466284</updated>
     </task>
-    <task id="LOCAL-00058" summary="instalação manage.py&#10;close #38">
-      <option name="closed" value="true" />
-      <created>1695255215642</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1695255215642</updated>
-    </task>
-    <task id="LOCAL-00059" summary="tests-base&#10;close #39">
-      <option name="closed" value="true" />
-      <created>1695255367605</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1695255367605</updated>
-    </task>
     <task id="LOCAL-00060" summary="banco de dados&#10;close #40">
       <option name="closed" value="true" />
       <created>1695515775561</created>
@@ -804,7 +758,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698801011624</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="Criar botão de Login&#10;close #63">
+      <option name="closed" value="true" />
+      <created>1698801981604</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1698801981604</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Criar botão de Login&#10;close #63">
+      <option name="closed" value="true" />
+      <created>1698802148088</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1698802148088</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
