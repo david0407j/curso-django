@@ -40,12 +40,19 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
 AUTH_USER_MODEL = 'base.User'
 LOGIN_URL = '/contas/login/'
+
 LOGIN_REDIRECT_URL = '/modulos/'
-LOGIN_REDIRECT_URL = '/'
+
+LOGOUT_REDIRECT_URL = '/'
 
 # Application definition
 
 INSTALLED_APPS = [
+    'pypro.base',
+    'pypro.turmas',
+    'pypro.aperitivos',
+    'pypro.modulos',
+    'ordered_model',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -53,11 +60,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'collectfast',
     'django.contrib.staticfiles',
-    'pypro.base',
-    'pypro.turmas',
-    'pypro.aperitivos',
-    'pypro.modulos',
-    'ordered_model',
     'django_extensions',
 
 
@@ -98,6 +100,17 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'pypro.wsgi.application'
+
+# Configurações - Email
+
+EMAIL_BACKEND = config('EMAIL_BACKEND')
+EMAIL_HOST = config('EMAIL_HOST')
+EMAIL_PORT = config('EMAIL_PORT')
+EMAIL_HOST_USER = config('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
+EMAIL_USE_TLS = config('EMAIL_USE_TLS')
+
+
 
 #configuração Debug Tollbar
 INTERNAL_IPS=config('INTERNAL_IPS', cast=Csv(), default='127.0.0.1')
