@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="997a00ae-b25f-46ed-8b23-c0f54f9eede3" name="Changes" comment="" />
+    <list default="true" id="997a00ae-b25f-46ed-8b23-c0f54f9eede3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/blank.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/blank.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -558,14 +560,6 @@
       <option name="project" value="LOCAL" />
       <updated>1691070466284</updated>
     </task>
-    <task id="LOCAL-00060" summary="banco de dados&#10;close #40">
-      <option name="closed" value="true" />
-      <created>1695515775561</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1695515775561</updated>
-    </task>
     <task id="LOCAL-00061" summary="tests banco &#10;close #41">
       <option name="closed" value="true" />
       <created>1695860313340</created>
@@ -774,7 +768,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698802148088</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Criar botão de Login&#10;close #63">
+      <option name="closed" value="true" />
+      <created>1698802397965</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1698802397967</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
