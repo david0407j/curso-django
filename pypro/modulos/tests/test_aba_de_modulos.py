@@ -8,7 +8,8 @@ from pypro.modulos.models import Modulo
 
 @pytest.fixture
 def modulos(db):
-    return baker.make(Modulo,2)
+    return baker.make(Modulo, 2)
+
 
 @pytest.fixture
 def resp(client, modulos):
@@ -24,5 +25,3 @@ def test_titulo_dos_modulos(resp, modulos):
 def test_link_dos_modulos(resp, modulos):
     for modulo in modulos:
         assert_contains(resp, modulo.get_absolute_url())
-
-

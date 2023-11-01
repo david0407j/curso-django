@@ -10,12 +10,14 @@ from pypro.modulos.models import Modulo, Aula
 def modulo(db):
     return baker.make(Modulo)
 
+
 @pytest.fixture
 def aulas(modulo):
     return baker.make(Aula, 3, modulo=modulo)
 
+
 @pytest.fixture
-def resp(client, modulo, aulas ):
+def resp(client, modulo, aulas):
     resp = client.get(reverse('modulos:detalhe', kwargs={'slug': modulo.slug}))
     return resp
 

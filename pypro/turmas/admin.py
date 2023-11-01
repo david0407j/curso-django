@@ -2,6 +2,7 @@ from django.contrib import admin
 
 from pypro.turmas.models import Turma
 
+
 class MatriculaInline(admin.TabularInline):
     model = Turma.alunos.through
     extra = 1

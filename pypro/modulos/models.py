@@ -3,7 +3,6 @@ from django.urls import reverse
 from ordered_model.models import OrderedModel
 
 
-
 class Modulo(OrderedModel):
     titulo = models.CharField(max_length=64)
     publico = models.TextField()
@@ -27,8 +26,6 @@ class Aula(OrderedModel):
     order_with_respect_to = 'modulo'
     vimeo_id = models.CharField(max_length=32, default='1')
 
-
-
     class Meta(OrderedModel.Meta):
         pass
 
@@ -37,5 +34,3 @@ class Aula(OrderedModel):
 
     def get_absolute_url(self):
         return reverse('modulos:aula', kwargs={'slug': self.slug})
-
-

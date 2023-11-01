@@ -20,8 +20,10 @@ def encontrar_modulo(slug: str) -> Modulo:
 def listar_aulas_de_modulo_ordenadas(modulo: Modulo):
     return list(modulo.aula_set.order_by('order').all())
 
+
 def encontrar_aula(slug):
     return Aula.objects.select_related('modulo').get(slug=slug)
+
 
 def listar_modulos_com_aulas():
     aulas_ordenadas = Aula.objects.order_by('order')

@@ -2,7 +2,6 @@ from django.urls import path
 
 from pypro.aperitivos.views import video_request, indice
 
-
 app_name = 'aperitivos'
 
 urlpatterns = [

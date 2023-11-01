@@ -11,4 +11,3 @@ def indice(request):
 def video_request(request, slug):
     video = get_object_or_404(Video, slug=slug)
     return render(request, 'aperitivos/video.html', context={'video': video})
-

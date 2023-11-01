@@ -15,8 +15,6 @@ class Matricula(models.Model):
     usuario = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
     turma = models.ForeignKey(Turma, on_delete=models.CASCADE)
 
-
     class Meta:
         unique_together = [['usuario', 'turma']]
         ordering = ['turma', 'data']
-

@@ -10,9 +10,11 @@ from pypro.modulos.models import Modulo, Aula
 def modulo(db):
     return baker.make(Modulo)
 
+
 @pytest.fixture
 def aula(modulo):
     return baker.make(Aula, modulo=modulo)
+
 
 @pytest.fixture
 def resp(client_com_usuario_logado, aula):
@@ -25,7 +27,7 @@ def test_titulo(resp, aula: Aula):
 
 
 def test_vimeo(resp, aula: Aula):
-    assert_contains(resp, f'src="https://player.vimeo.com/video/{ aula.vimeo_id }"')
+    assert_contains(resp, f'src="https://player.vimeo.com/video/{aula.vimeo_id}"')
 
 
 def test_modulo_breadcrumb(resp, modulo):
@@ -41,4 +43,3 @@ def resp_sem_usuario(client, aula):
 def test_usuario_nao_logado_redirect(resp_sem_usuario):
     assert resp_sem_usuario.status_code == 302
     assert resp_sem_usuario.url.startswith(reverse('login'))
-
